@@ -1,6 +1,7 @@
 //
 //  IQPhotoEditorConstants.h
 //  IQPhotoEditorSDK
+//  https://github.com/IQPhotoEditor/IQPhotoEditor
 //
 //  Copyright (c) 2014 Iftekhar. All rights reserved.
 //
