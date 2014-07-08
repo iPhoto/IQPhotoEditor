@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A647A4196CB6930023C5A7 /* IQPhotoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A647A2196CB6930023C5A7 /* IQPhotoEditor.framework */; };
+		C0A647A5196CB6930023C5A7 /* IQPhotoEditorResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0A647A3196CB6930023C5A7 /* IQPhotoEditorResources.bundle */; };
+		C0BD276F1969FAE700CA2D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD276E1969FAE700CA2D9B /* Foundation.framework */; };
+		C0BD27711969FAE700CA2D9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD27701969FAE700CA2D9B /* CoreGraphics.framework */; };
+		C0BD27731969FAE700CA2D9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD27721969FAE700CA2D9B /* UIKit.framework */; };
+		C0BD27791969FAE700CA2D9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0BD27771969FAE700CA2D9B /* InfoPlist.strings */; };
+		C0BD277B1969FAE700CA2D9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BD277A1969FAE700CA2D9B /* main.m */; };
+		C0BD277F1969FAE700CA2D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BD277E1969FAE700CA2D9B /* AppDelegate.m */; };
+		C0BD27821969FAE700CA2D9B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BD27801969FAE700CA2D9B /* Main_iPhone.storyboard */; };
+		C0BD27881969FAE700CA2D9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BD27871969FAE700CA2D9B /* ViewController.m */; };
+		C0BD278A1969FAE700CA2D9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BD27891969FAE700CA2D9B /* Images.xcassets */; };
+		C0BD27911969FAE700CA2D9B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD27901969FAE700CA2D9B /* XCTest.framework */; };
+		C0BD27921969FAE700CA2D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD276E1969FAE700CA2D9B /* Foundation.framework */; };
+		C0BD27931969FAE700CA2D9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD27721969FAE700CA2D9B /* UIKit.framework */; };
+		C0BD27AD1969FBE700CA2D9B /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0BD27AC1969FBE700CA2D9B /* sample.jpg */; };
+		C0BD27B01969FD0200CA2D9B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD27AF1969FD0200CA2D9B /* CoreData.framework */; };
+		C0BD27B21969FD1800CA2D9B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD27B11969FD1800CA2D9B /* CoreMedia.framework */; };
+		C0BD27B41969FD2200CA2D9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD27B31969FD2200CA2D9B /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0BD27941969FAE700CA2D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0BD27631969FAE700CA2D9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BD276A1969FAE700CA2D9B;
+			remoteInfo = "IQPhotoEditor Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0A647A2196CB6930023C5A7 /* IQPhotoEditor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IQPhotoEditor.framework; sourceTree = "<group>"; };
+		C0A647A3196CB6930023C5A7 /* IQPhotoEditorResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQPhotoEditorResources.bundle; sourceTree = "<group>"; };
+		C0BD276B1969FAE700CA2D9B /* IQPhotoEditor Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQPhotoEditor Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BD276E1969FAE700CA2D9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0BD27701969FAE700CA2D9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0BD27721969FAE700CA2D9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0BD27761969FAE700CA2D9B /* IQPhotoEditor Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IQPhotoEditor Demo-Info.plist"; sourceTree = "<group>"; };
+		C0BD27781969FAE700CA2D9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0BD277A1969FAE700CA2D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0BD277C1969FAE700CA2D9B /* IQPhotoEditor Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQPhotoEditor Demo-Prefix.pch"; sourceTree = "<group>"; };
+		C0BD277D1969FAE700CA2D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0BD277E1969FAE700CA2D9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0BD27811969FAE700CA2D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C0BD27861969FAE700CA2D9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0BD27871969FAE700CA2D9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0BD27891969FAE700CA2D9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0BD278F1969FAE700CA2D9B /* IQPhotoEditor DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IQPhotoEditor DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BD27901969FAE700CA2D9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C0BD27AC1969FBE700CA2D9B /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		C0BD27AF1969FD0200CA2D9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C0BD27B11969FD1800CA2D9B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C0BD27B31969FD2200CA2D9B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0BD27681969FAE700CA2D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD27B41969FD2200CA2D9B /* AVFoundation.framework in Frameworks */,
+				C0A647A4196CB6930023C5A7 /* IQPhotoEditor.framework in Frameworks */,
+				C0BD27B21969FD1800CA2D9B /* CoreMedia.framework in Frameworks */,
+				C0BD27B01969FD0200CA2D9B /* CoreData.framework in Frameworks */,
+				C0BD27711969FAE700CA2D9B /* CoreGraphics.framework in Frameworks */,
+				C0BD27731969FAE700CA2D9B /* UIKit.framework in Frameworks */,
+				C0BD276F1969FAE700CA2D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD278C1969FAE700CA2D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD27911969FAE700CA2D9B /* XCTest.framework in Frameworks */,
+				C0BD27931969FAE700CA2D9B /* UIKit.framework in Frameworks */,
+				C0BD27921969FAE700CA2D9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A647A1196CB6930023C5A7 /* IQPhotoEditorSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C0A647A2196CB6930023C5A7 /* IQPhotoEditor.framework */,
+				C0A647A3196CB6930023C5A7 /* IQPhotoEditorResources.bundle */,
+			);
+			name = IQPhotoEditorSDK;
+			path = ../IQPhotoEditorSDK;
+			sourceTree = "<group>";
+		};
+		C0BD27621969FAE700CA2D9B = {
+			isa = PBXGroup;
+			children = (
+				C0A647A1196CB6930023C5A7 /* IQPhotoEditorSDK */,
+				C0BD27741969FAE700CA2D9B /* IQPhotoEditor Demo */,
+				C0BD276D1969FAE700CA2D9B /* Frameworks */,
+				C0BD276C1969FAE700CA2D9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0BD276C1969FAE700CA2D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD276B1969FAE700CA2D9B /* IQPhotoEditor Demo.app */,
+				C0BD278F1969FAE700CA2D9B /* IQPhotoEditor DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0BD276D1969FAE700CA2D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD27B31969FD2200CA2D9B /* AVFoundation.framework */,
+				C0BD27B11969FD1800CA2D9B /* CoreMedia.framework */,
+				C0BD27AF1969FD0200CA2D9B /* CoreData.framework */,
+				C0BD276E1969FAE700CA2D9B /* Foundation.framework */,
+				C0BD27701969FAE700CA2D9B /* CoreGraphics.framework */,
+				C0BD27721969FAE700CA2D9B /* UIKit.framework */,
+				C0BD27901969FAE700CA2D9B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0BD27741969FAE700CA2D9B /* IQPhotoEditor Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD277D1969FAE700CA2D9B /* AppDelegate.h */,
+				C0BD277E1969FAE700CA2D9B /* AppDelegate.m */,
+				C0BD27801969FAE700CA2D9B /* Main_iPhone.storyboard */,
+				C0BD27861969FAE700CA2D9B /* ViewController.h */,
+				C0BD27871969FAE700CA2D9B /* ViewController.m */,
+				C0BD27891969FAE700CA2D9B /* Images.xcassets */,
+				C0BD27AE1969FBE900CA2D9B /* Resources */,
+				C0BD27751969FAE700CA2D9B /* Supporting Files */,
+			);
+			path = "IQPhotoEditor Demo";
+			sourceTree = "<group>";
+		};
+		C0BD27751969FAE700CA2D9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD27761969FAE700CA2D9B /* IQPhotoEditor Demo-Info.plist */,
+				C0BD27771969FAE700CA2D9B /* InfoPlist.strings */,
+				C0BD277A1969FAE700CA2D9B /* main.m */,
+				C0BD277C1969FAE700CA2D9B /* IQPhotoEditor Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0BD27AE1969FBE900CA2D9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD27AC1969FBE700CA2D9B /* sample.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0BD276A1969FAE700CA2D9B /* IQPhotoEditor Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BD27A01969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor Demo" */;
+			buildPhases = (
+				C0BD27671969FAE700CA2D9B /* Sources */,
+				C0BD27681969FAE700CA2D9B /* Frameworks */,
+				C0BD27691969FAE700CA2D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IQPhotoEditor Demo";
+			productName = "IQPhotoEditor Demo";
+			productReference = C0BD276B1969FAE700CA2D9B /* IQPhotoEditor Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0BD278E1969FAE700CA2D9B /* IQPhotoEditor DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BD27A31969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor DemoTests" */;
+			buildPhases = (
+				C0BD278B1969FAE700CA2D9B /* Sources */,
+				C0BD278C1969FAE700CA2D9B /* Frameworks */,
+				C0BD278D1969FAE700CA2D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BD27951969FAE700CA2D9B /* PBXTargetDependency */,
+			);
+			name = "IQPhotoEditor DemoTests";
+			productName = "IQPhotoEditor DemoTests";
+			productReference = C0BD278F1969FAE700CA2D9B /* IQPhotoEditor DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0BD27631969FAE700CA2D9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Iftekhar;
+				TargetAttributes = {
+					C0BD278E1969FAE700CA2D9B = {
+						TestTargetID = C0BD276A1969FAE700CA2D9B;
+					};
+				};
+			};
+			buildConfigurationList = C0BD27661969FAE700CA2D9B /* Build configuration list for PBXProject "IQPhotoEditor Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0BD27621969FAE700CA2D9B;
+			productRefGroup = C0BD276C1969FAE700CA2D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0BD276A1969FAE700CA2D9B /* IQPhotoEditor Demo */,
+				C0BD278E1969FAE700CA2D9B /* IQPhotoEditor DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0BD27691969FAE700CA2D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD278A1969FAE700CA2D9B /* Images.xcassets in Resources */,
+				C0BD27821969FAE700CA2D9B /* Main_iPhone.storyboard in Resources */,
+				C0BD27791969FAE700CA2D9B /* InfoPlist.strings in Resources */,
+				C0A647A5196CB6930023C5A7 /* IQPhotoEditorResources.bundle in Resources */,
+				C0BD27AD1969FBE700CA2D9B /* sample.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD278D1969FAE700CA2D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BD27671969FAE700CA2D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD27881969FAE700CA2D9B /* ViewController.m in Sources */,
+				C0BD277F1969FAE700CA2D9B /* AppDelegate.m in Sources */,
+				C0BD277B1969FAE700CA2D9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD278B1969FAE700CA2D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0BD27951969FAE700CA2D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0BD276A1969FAE700CA2D9B /* IQPhotoEditor Demo */;
+			targetProxy = C0BD27941969FAE700CA2D9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0BD27771969FAE700CA2D9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BD27781969FAE700CA2D9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0BD27801969FAE700CA2D9B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BD27811969FAE700CA2D9B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0BD279E1969FAE700CA2D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0BD279F1969FAE700CA2D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0BD27A11969FAE700CA2D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQPhotoEditorSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor Demo-Prefix.pch";
+				INFOPLIST_FILE = "IQPhotoEditor Demo/IQPhotoEditor Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0BD27A21969FAE700CA2D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IQPhotoEditorSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor Demo-Prefix.pch";
+				INFOPLIST_FILE = "IQPhotoEditor Demo/IQPhotoEditor Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0BD27A41969FAE700CA2D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IQPhotoEditor Demo.app/IQPhotoEditor Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IQPhotoEditor DemoTests/IQPhotoEditor DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0BD27A51969FAE700CA2D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IQPhotoEditor Demo.app/IQPhotoEditor Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor Demo-Prefix.pch";
+				INFOPLIST_FILE = "IQPhotoEditor DemoTests/IQPhotoEditor DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0BD27661969FAE700CA2D9B /* Build configuration list for PBXProject "IQPhotoEditor Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BD279E1969FAE700CA2D9B /* Debug */,
+				C0BD279F1969FAE700CA2D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BD27A01969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BD27A11969FAE700CA2D9B /* Debug */,
+				C0BD27A21969FAE700CA2D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BD27A31969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BD27A41969FAE700CA2D9B /* Debug */,
+				C0BD27A51969FAE700CA2D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0BD27631969FAE700CA2D9B /* Project object */;
+}
