@@ -1,5 +1,6 @@
 IQPhotoEditor
 =============
+'IQPhotoEditor' is a lightweight photo editing framework which can be integrated very easily in any project within minutes. Present `IQPhotoEditorController` with `UIViewController+IQPhotoEditor` category method to provide to the user a powerful, beautiful & user friendly photo editing interface.
 
 Screenshot
 ---
@@ -51,7 +52,9 @@ Usage
 ```
 
 
-##### Step2:- Drag and drop IQDatabaseMangerSubclass.h & IQDatabaseManger.h & .m file in your project.
+##### Step2:- Launch Photo Editor
+- Present IQPhotoEditorController using following code snippet.
+
 ```
 - (void)openPhotoEditorWithImage:(UIImage *)image
 {
@@ -62,6 +65,7 @@ Usage
   }];
 }
 ```
+
 Compatibility
 ---
 - Minimum OS:- iOS 5.0+.
@@ -70,9 +74,8 @@ Compatibility
 
 Notes
 ---
-- We do not recommend Adding/Modifying/Deleting any contents of `IQPhotoEditorResources.bundle`.
+- We do not recommend & do not support Adding/Modifying/Deleting any contents of `IQPhotoEditorResources.bundle` & `IQPhotoEditor.framework` binary & header files.
 
 Author
 ---
-
-If you wish to contact me, email at: hack.iftekhar@gmail.com
+- If you wish to contact me, email at: hack.iftekhar@gmail.com
