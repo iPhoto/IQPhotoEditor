@@ -12,10 +12,10 @@ Project Setup Guide
 ---
 
 ##### Step 1:- Adding Photo Editor files
-- In order to user IQPhotoEditor you need to add "IQPhotoEditorSDK" directory to your project. It contains a static framework `IQPhotoEditor.framework` and a resource bundle `IQPhotoEditorResources.bundle`. Copy "IQPhotoEditorSDK" to your project. Select "Create groups for any added folders". Make sure `IQPhotoEditorResources.bundle` is added in your target's "Copy Bundle Resources" and `IQPhotoEditor.framework` is added in target's "Link Binary With Libraries" under build phase.
+- In order to use IQPhotoEditor you need to add "IQPhotoEditorSDK" directory to your project. It contains a static framework `IQPhotoEditor.framework` and a resource bundle `IQPhotoEditorResources.bundle`. Copy "IQPhotoEditorSDK" to your project. Select "Create groups for any added folders". Make sure `IQPhotoEditorResources.bundle` is added in your target's "Copy Bundle Resources" and `IQPhotoEditor.framework` is added in target's "Link Binary With Libraries" under build phase.
 
 ##### Step 2:- Link against frameworks.
-- In order to user IQPhotoEditor framework you may need to Link your project against these frameworks under `Project Navigator->Target->Build Phases->Link Binary With Libraries`.
+- In order to use IQPhotoEditor framework you may need to Link your project against these frameworks under `Project Navigator->Target->Build Phases->Link Binary With Libraries`.
     
 
     1) Accelerate.framework
