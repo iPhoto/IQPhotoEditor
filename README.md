@@ -5,7 +5,9 @@ IQPhotoEditor
 Screenshot
 ---
 
-[![image](./IQPhotoEditor%20Demo/Screenshot/IQPhotoEditorScreenshot.png)]
+[![Photo Editor](./IQPhotoEditor%20Demo/Screenshot/IQPhotoEditorScreenshot1.png)]
+[![Colorize](./IQPhotoEditor%20Demo/Screenshot/IQPhotoEditorScreenshot2.png)]
+[![Overlay](./IQPhotoEditor%20Demo/Screenshot/IQPhotoEditorScreenshot3.png)]
 
 
 Project Setup Guide
