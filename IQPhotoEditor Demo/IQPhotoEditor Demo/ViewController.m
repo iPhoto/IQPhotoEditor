@@ -19,12 +19,16 @@
  	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (IBAction)openAction:(UIButton *)sender
+- (IBAction)openPhotoEditorFromImageView:(UIButton *)sender
+{
+    [self presentPhotoEditorForImageView:imageView];
+}
+
+- (IBAction)openPhotoEditorAction:(UIButton *)sender
 {
     IQPhotoEditorController *controller = [[IQPhotoEditorController alloc] initWithImage:imageView.image];
-    
     [self presentPhotoEditor:controller presentationStyle:IQPhotoEditorPresentationStyleDefault withCompletion:^(UIImage *image, BOOL isModified) {
-        [imageView setImage:image];
+        imageView.image = image;
     }];
 }
 

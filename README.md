@@ -55,7 +55,7 @@ Usage
 
 
 ##### Step2:- Launch Photo Editor
-- Present IQPhotoEditorController using following code snippet.
+- Present IQPhotoEditorController using any one of the following code snippet.
 
 ```
 - (void)openPhotoEditorWithImage:(UIImage *)image
@@ -67,6 +67,16 @@ Usage
   }];
 }
 ```
+
+- If you want to edit an image which belongs to an ImageView, then you can present photo editor like this:-
+
+```
+- (IBAction)openPhotoEditorFromImageView:(UIButton *)sender
+{
+    [self presentPhotoEditorForImageView:imageView];
+}
+```
+
 
 Compatibility
 ---

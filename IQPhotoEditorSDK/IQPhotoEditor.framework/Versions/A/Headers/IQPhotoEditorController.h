@@ -30,16 +30,6 @@
 
 
 /*!
-    @property completionBlock
- 
-    @abstract completionBlock to receive edited image.
- 
-    @discussion If you are using native model presentation method 'presentViewController:animated:completion:' then you should set completionBlock property to receive edited image. If you use UIViewController+IQPhotoEditor category method then you should provide completionBlock in category method to receive edited image.
- */
-@property (nonatomic, assign) IQPhotoEditorCompletion completionBlock;
-
-
-/*!
     @method initWithImage:
  
     @abstract Initialize Photo Editor Controller with provided image.

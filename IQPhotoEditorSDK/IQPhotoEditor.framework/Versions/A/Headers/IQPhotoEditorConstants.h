@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Iftekhar. All rights reserved.
 //
 
-
+@class UIImage;
 
 /*!
     @typedef IQPhotoEditorCompletion
@@ -31,6 +31,6 @@ typedef void(^IQPhotoEditorCompletion)(UIImage* image, BOOL isModified);
  */
 typedef enum IQPhotoEditorPresentationStyle
 {
-    IQPhotoEditorPresentationStyleDefault,
+    IQPhotoEditorPresentationStyleDefault = 0,
 }IQPhotoEditorPresentationStyle;
 
