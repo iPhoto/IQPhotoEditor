@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0BD276A1969FAE700CA2D9B"
-               BuildableName = "IQPhotoEditor Demo.app"
-               BlueprintName = "IQPhotoEditor Demo"
-               ReferencedContainer = "container:IQPhotoEditor Demo.xcodeproj">
+               BuildableName = "IQPhotoEditor.app"
+               BlueprintName = "IQPhotoEditor"
+               ReferencedContainer = "container:IQPhotoEditor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0BD278E1969FAE700CA2D9B"
-               BuildableName = "IQPhotoEditor DemoTests.xctest"
-               BlueprintName = "IQPhotoEditor DemoTests"
-               ReferencedContainer = "container:IQPhotoEditor Demo.xcodeproj">
+               BuildableName = "IQPhotoEditorTests.xctest"
+               BlueprintName = "IQPhotoEditorTests"
+               ReferencedContainer = "container:IQPhotoEditor.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0BD276A1969FAE700CA2D9B"
-            BuildableName = "IQPhotoEditor Demo.app"
-            BlueprintName = "IQPhotoEditor Demo"
-            ReferencedContainer = "container:IQPhotoEditor Demo.xcodeproj">
+            BuildableName = "IQPhotoEditor.app"
+            BlueprintName = "IQPhotoEditor"
+            ReferencedContainer = "container:IQPhotoEditor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0BD276A1969FAE700CA2D9B"
-            BuildableName = "IQPhotoEditor Demo.app"
-            BlueprintName = "IQPhotoEditor Demo"
-            ReferencedContainer = "container:IQPhotoEditor Demo.xcodeproj">
+            BuildableName = "IQPhotoEditor.app"
+            BlueprintName = "IQPhotoEditor"
+            ReferencedContainer = "container:IQPhotoEditor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0BD276A1969FAE700CA2D9B"
-            BuildableName = "IQPhotoEditor Demo.app"
-            BlueprintName = "IQPhotoEditor Demo"
-            ReferencedContainer = "container:IQPhotoEditor Demo.xcodeproj">
+            BuildableName = "IQPhotoEditor.app"
+            BlueprintName = "IQPhotoEditor"
+            ReferencedContainer = "container:IQPhotoEditor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

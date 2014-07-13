@@ -40,21 +40,21 @@
 /* Begin PBXFileReference section */
 		C0A647A2196CB6930023C5A7 /* IQPhotoEditor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IQPhotoEditor.framework; sourceTree = "<group>"; };
 		C0A647A3196CB6930023C5A7 /* IQPhotoEditorResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQPhotoEditorResources.bundle; sourceTree = "<group>"; };
-		C0BD276B1969FAE700CA2D9B /* IQPhotoEditor Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IQPhotoEditor Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BD276B1969FAE700CA2D9B /* IQPhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQPhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BD276E1969FAE700CA2D9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C0BD27701969FAE700CA2D9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C0BD27721969FAE700CA2D9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C0BD27761969FAE700CA2D9B /* IQPhotoEditor Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IQPhotoEditor Demo-Info.plist"; sourceTree = "<group>"; };
+		C0BD27761969FAE700CA2D9B /* IQPhotoEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IQPhotoEditor-Info.plist"; sourceTree = "<group>"; };
 		C0BD27781969FAE700CA2D9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0BD277A1969FAE700CA2D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0BD277C1969FAE700CA2D9B /* IQPhotoEditor Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQPhotoEditor Demo-Prefix.pch"; sourceTree = "<group>"; };
+		C0BD277C1969FAE700CA2D9B /* IQPhotoEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IQPhotoEditor-Prefix.pch"; sourceTree = "<group>"; };
 		C0BD277D1969FAE700CA2D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0BD277E1969FAE700CA2D9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C0BD27811969FAE700CA2D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		C0BD27861969FAE700CA2D9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C0BD27871969FAE700CA2D9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C0BD27891969FAE700CA2D9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C0BD278F1969FAE700CA2D9B /* IQPhotoEditor DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IQPhotoEditor DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BD278F1969FAE700CA2D9B /* IQPhotoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQPhotoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BD27901969FAE700CA2D9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C0BD27AC1969FBE700CA2D9B /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 		C0BD27AF1969FD0200CA2D9B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -113,8 +113,8 @@
 		C0BD276C1969FAE700CA2D9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0BD276B1969FAE700CA2D9B /* IQPhotoEditor Demo.app */,
-				C0BD278F1969FAE700CA2D9B /* IQPhotoEditor DemoTests.xctest */,
+				C0BD276B1969FAE700CA2D9B /* IQPhotoEditor.app */,
+				C0BD278F1969FAE700CA2D9B /* IQPhotoEditorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,10 +151,10 @@
 		C0BD27751969FAE700CA2D9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C0BD27761969FAE700CA2D9B /* IQPhotoEditor Demo-Info.plist */,
+				C0BD27761969FAE700CA2D9B /* IQPhotoEditor-Info.plist */,
 				C0BD27771969FAE700CA2D9B /* InfoPlist.strings */,
 				C0BD277A1969FAE700CA2D9B /* main.m */,
-				C0BD277C1969FAE700CA2D9B /* IQPhotoEditor Demo-Prefix.pch */,
+				C0BD277C1969FAE700CA2D9B /* IQPhotoEditor-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -170,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0BD276A1969FAE700CA2D9B /* IQPhotoEditor Demo */ = {
+		C0BD276A1969FAE700CA2D9B /* IQPhotoEditor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0BD27A01969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor Demo" */;
+			buildConfigurationList = C0BD27A01969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor" */;
 			buildPhases = (
 				C0BD27671969FAE700CA2D9B /* Sources */,
 				C0BD27681969FAE700CA2D9B /* Frameworks */,
@@ -182,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = "IQPhotoEditor Demo";
+			name = IQPhotoEditor;
 			productName = "IQPhotoEditor Demo";
-			productReference = C0BD276B1969FAE700CA2D9B /* IQPhotoEditor Demo.app */;
+			productReference = C0BD276B1969FAE700CA2D9B /* IQPhotoEditor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C0BD278E1969FAE700CA2D9B /* IQPhotoEditor DemoTests */ = {
+		C0BD278E1969FAE700CA2D9B /* IQPhotoEditorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0BD27A31969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor DemoTests" */;
+			buildConfigurationList = C0BD27A31969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditorTests" */;
 			buildPhases = (
 				C0BD278B1969FAE700CA2D9B /* Sources */,
 				C0BD278C1969FAE700CA2D9B /* Frameworks */,
@@ -200,9 +200,9 @@
 			dependencies = (
 				C0BD27951969FAE700CA2D9B /* PBXTargetDependency */,
 			);
-			name = "IQPhotoEditor DemoTests";
+			name = IQPhotoEditorTests;
 			productName = "IQPhotoEditor DemoTests";
-			productReference = C0BD278F1969FAE700CA2D9B /* IQPhotoEditor DemoTests.xctest */;
+			productReference = C0BD278F1969FAE700CA2D9B /* IQPhotoEditorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0BD27661969FAE700CA2D9B /* Build configuration list for PBXProject "IQPhotoEditor Demo" */;
+			buildConfigurationList = C0BD27661969FAE700CA2D9B /* Build configuration list for PBXProject "IQPhotoEditor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0BD276A1969FAE700CA2D9B /* IQPhotoEditor Demo */,
-				C0BD278E1969FAE700CA2D9B /* IQPhotoEditor DemoTests */,
+				C0BD276A1969FAE700CA2D9B /* IQPhotoEditor */,
+				C0BD278E1969FAE700CA2D9B /* IQPhotoEditorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,7 +283,7 @@
 /* Begin PBXTargetDependency section */
 		C0BD27951969FAE700CA2D9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C0BD276A1969FAE700CA2D9B /* IQPhotoEditor Demo */;
+			target = C0BD276A1969FAE700CA2D9B /* IQPhotoEditor */;
 			targetProxy = C0BD27941969FAE700CA2D9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,8 +390,8 @@
 					"$(PROJECT_DIR)/IQPhotoEditorSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor Demo-Prefix.pch";
-				INFOPLIST_FILE = "IQPhotoEditor Demo/IQPhotoEditor Demo-Info.plist";
+				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor-Prefix.pch";
+				INFOPLIST_FILE = "IQPhotoEditor Demo/IQPhotoEditor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
@@ -410,8 +410,8 @@
 					"$(PROJECT_DIR)/IQPhotoEditorSDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor Demo-Prefix.pch";
-				INFOPLIST_FILE = "IQPhotoEditor Demo/IQPhotoEditor Demo-Info.plist";
+				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor-Prefix.pch";
+				INFOPLIST_FILE = "IQPhotoEditor Demo/IQPhotoEditor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
@@ -436,7 +436,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "IQPhotoEditor DemoTests/IQPhotoEditor DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IQPhotoEditorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,7 +454,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IQPhotoEditor Demo/IQPhotoEditor Demo-Prefix.pch";
 				INFOPLIST_FILE = "IQPhotoEditor DemoTests/IQPhotoEditor DemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IQPhotoEditorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -463,7 +463,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0BD27661969FAE700CA2D9B /* Build configuration list for PBXProject "IQPhotoEditor Demo" */ = {
+		C0BD27661969FAE700CA2D9B /* Build configuration list for PBXProject "IQPhotoEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0BD279E1969FAE700CA2D9B /* Debug */,
@@ -472,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0BD27A01969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor Demo" */ = {
+		C0BD27A01969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0BD27A11969FAE700CA2D9B /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0BD27A31969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditor DemoTests" */ = {
+		C0BD27A31969FAE700CA2D9B /* Build configuration list for PBXNativeTarget "IQPhotoEditorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0BD27A41969FAE700CA2D9B /* Debug */,
