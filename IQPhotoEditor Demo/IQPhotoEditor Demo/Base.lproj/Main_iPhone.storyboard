@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller - IQPhotoEditor Demo-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -40,7 +40,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qcc-mQ-Dca"/>
+                    <navigationItem key="navigationItem" title="IQPhotoEditor Demo" id="Qcc-mQ-Dca"/>
                     <connections>
                         <outlet property="imageView" destination="fXm-Ey-ohb" id="adr-Op-9vL"/>
                     </connections>
