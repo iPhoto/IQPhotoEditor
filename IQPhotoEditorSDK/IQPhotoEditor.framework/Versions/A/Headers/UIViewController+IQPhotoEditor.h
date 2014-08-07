@@ -29,6 +29,6 @@
 
     @discussion You must not pass imageView without any image set to it.
  */
--(void)presentPhotoEditorForImageView:(UIImageView*)imageView;
+-(IQPhotoEditorController*)presentPhotoEditorForImageView:(UIImageView*)imageView;
 
 @end

@@ -14,29 +14,27 @@
 
 @implementation ViewController
 {
-    IBOutlet UIImageView *imageView;
-}
-
-#pragma mark - IQPhotoEditor
-- (IBAction)openPhotoEditorFromImageView:(UIButton *)sender
-{
-    [self presentPhotoEditorForImageView:imageView];
+    IBOutlet UIImageView *imageView1;
+    IBOutlet UIImageView *imageView2;
+    IBOutlet UIImageView *imageView3;
+    
+    UIImageView *selectedImageView;
 }
 
 - (IBAction)openPhotoEditorAction:(UIButton *)sender
 {
-    IQPhotoEditorController *controller = [[IQPhotoEditorController alloc] initWithImage:imageView.image];
+    IQPhotoEditorController *controller = [[IQPhotoEditorController alloc] initWithImage:imageView1.image];
     [self presentPhotoEditor:controller presentationStyle:IQPhotoEditorPresentationStyleDefault withCompletion:^(UIImage *image, BOOL isModified) {
-        imageView.image = image;
+        imageView1.image = image;
     }];
 }
 
 #pragma mark - Save Action
 - (IBAction)saveAction:(UIBarButtonItem *)barButton
 {
-    if (imageView.image)
+    if (imageView1.image)
     {
-        UIImageWriteToSavedPhotosAlbum(imageView.image, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
+        UIImageWriteToSavedPhotosAlbum(imageView1.image, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
     }
 }
 
@@ -55,8 +53,17 @@
 #pragma mark - Open Photo Library
 - (IBAction)tapAction:(UITapGestureRecognizer *)gesture
 {
-    if (gesture.state == UIGestureRecognizerStateEnded)
+    UIImageView *imageView = (UIImageView*)gesture.view;
+    
+    [self presentPhotoEditorForImageView:imageView];
+}
+
+- (IBAction)longPressAction:(UILongPressGestureRecognizer *)gesture
+{
+    if (gesture.state == UIGestureRecognizerStateBegan)
     {
+        selectedImageView = (UIImageView*)gesture.view;
+
         UIImagePickerController *controller = [[UIImagePickerController alloc] init];
         controller.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         controller.delegate = self;
@@ -64,15 +71,20 @@
     }
 }
 
+
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
-    imageView.image = [info objectForKey:UIImagePickerControllerOriginalImage];
-    [picker dismissViewControllerAnimated:YES completion:nil];
+    selectedImageView.image = [info objectForKey:UIImagePickerControllerOriginalImage];
+    [picker dismissViewControllerAnimated:YES completion:^{
+        selectedImageView = nil;
+    }];
 }
 
 -(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-    [picker dismissViewControllerAnimated:YES completion:nil];
+    [picker dismissViewControllerAnimated:YES completion:^{
+        selectedImageView = nil;
+    }];
 }
 
 @end
